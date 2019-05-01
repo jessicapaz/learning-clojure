@@ -24,3 +24,12 @@
 ; 24
 (println (factorial 2))
 ; 2
+
+(defn counter
+  [start end]
+  (loop [acc start]
+    (when (not= end acc)
+      (println acc)
+      (recur (inc acc)))))
+
+(println (counter 12 34))
