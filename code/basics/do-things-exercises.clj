@@ -9,6 +9,9 @@
 
 (hash-set 1 2 3 1 1 2)
 
+(partition 3 [1 2 3 8 5 2])
+; ((1 2 3) (8 5 2))
+
 ; takes a number and adds 100 to it.
 (defn inc100
   [number]

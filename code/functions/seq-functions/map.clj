@@ -1,0 +1,6 @@
+(println (map + [1 2 3] [2 3 4]))
+; (3 5 7)
+(println (map str "abc" ["A" "B" "C"]))
+; (aA bB cC)
+(println (map #(+ 3 %) [1 2 3]))
+; (4 5 6)
